@@ -1,0 +1,55 @@
+src/
+│
+├── assets/                # Archivos estáticos (imágenes, fuentes, íconos, etc.)
+│   ├── images/            # Imágenes
+│   ├── fonts/             # Tipografías
+│   └── styles/            # Archivos CSS, SASS o preprocesadores
+│
+├── components/            # Componentes reutilizables
+│   ├── common/            # Componentes compartidos (botones, inputs, etc.)
+│   ├── layout/            # Componentes de layout (navbar, sidebar, footer)
+│   └── specific/          # Componentes específicos para vistas
+│
+├── pages/                 # Vistas o páginas principales de la app (por ejemplo, Home, About, etc.)
+│   ├── Home/
+│   │    ├── Home.jsx
+│   │    ├── Home.css
+│   │    └── Home.test.js
+│   ├── About/
+│   │    ├── About.jsx
+│   │    ├── About.css
+│   │    └── About.test.js
+│   └── ...
+│
+├── context/               # Context API (para almacenamiento global de estado)
+│   ├── AuthContext.js
+│   ├── ThemeContext.js
+│   └── ...
+│
+├── hooks/                 # Custom hooks
+│   ├── useAuth.js
+│   ├── useFetch.js
+│   └── ...
+│
+├── services/              # Lógica para interactuar con APIs, servicios y backends
+│   ├── api.js             # Configuración de Axios o Fetch
+│   ├── authService.js     # Servicios relacionados con autenticación
+│   └── ...
+│
+├── store/                 # Redux, Zustand, o alguna librería de manejo de estado
+│   ├── slices/
+│   ├── actions/
+│   ├── reducers/
+│   └── store.js
+│
+├── utils/                 # Funciones utilitarias comunes (helpers, configuraciones globales, etc.)
+│   ├── constants.js
+│   ├── validators.js
+│   ├── dateUtils.js
+│   └── ...
+│
+├── App.jsx                # Componente raíz de la aplicación
+├── index.js               # Punto de entrada
+├── reportWebVitals.js     # Métricas de desempeño
+├── setupTests.js          # Configuración de pruebas con Jest/Enzyme/RTL
+└── ...                    # Otros archivos según necesidades (e.g. serviceWorker.js)
